@@ -27,7 +27,7 @@ Every problem is solved three ways: **memoization** , **tabulation** and **naive
 ## Installation
 
 ```bash
-git clone <this repository's URL>
+git clone https://github.com/rp0948/dp-explorer.git
 cd dp-explorer
 python -m venv .venv
 source .venv/bin/activate
