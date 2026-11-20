@@ -4,45 +4,45 @@
     "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
     "processor": "arm",
     "cpu_count": 8,
-    "date": "2026-11-18"
+    "date": "2026-11-20"
   },
-  "repeats": 5,
+  "repeats": 2,
   "fits": {
     "knapsack/memo": {
-      "time_exponent": 2.07,
-      "ops_exponent": 2.01,
-      "time_vs_ops_r2": 0.9981,
-      "ns_per_op": 540.2
+      "time_exponent": 2.16,
+      "ops_exponent": 2.13,
+      "time_vs_ops_r2": 0.9997,
+      "ns_per_op": 425.9
     },
     "knapsack/tab": {
-      "time_exponent": 2.02,
-      "ops_exponent": 1.98,
-      "time_vs_ops_r2": 0.9998,
-      "ns_per_op": 168.8
+      "time_exponent": 1.93,
+      "ops_exponent": 1.94,
+      "time_vs_ops_r2": 0.9999,
+      "ns_per_op": 144.9
     },
     "lcs/memo": {
-      "time_exponent": 2.05,
-      "ops_exponent": 1.99,
-      "time_vs_ops_r2": 0.9991,
-      "ns_per_op": 466.7
+      "time_exponent": 1.66,
+      "ops_exponent": 1.82,
+      "time_vs_ops_r2": 0.998,
+      "ns_per_op": 428.4
     },
     "lcs/tab": {
-      "time_exponent": 2.04,
-      "ops_exponent": 1.99,
-      "time_vs_ops_r2": 0.9987,
-      "ns_per_op": 165.5
+      "time_exponent": 2.03,
+      "ops_exponent": 1.95,
+      "time_vs_ops_r2": 0.9999,
+      "ns_per_op": 168.2
     },
     "coins/memo": {
-      "time_exponent": 1.0,
-      "ops_exponent": 1.01,
-      "time_vs_ops_r2": 0.9989,
-      "ns_per_op": 243.5
+      "time_exponent": 1.12,
+      "ops_exponent": 1.1,
+      "time_vs_ops_r2": 0.9942,
+      "ns_per_op": 262.5
     },
     "coins/tab": {
-      "time_exponent": 1.01,
-      "ops_exponent": 1.01,
-      "time_vs_ops_r2": 1.0,
-      "ns_per_op": 94.2
+      "time_exponent": 1.06,
+      "ops_exponent": 1.1,
+      "time_vs_ops_r2": 0.9986,
+      "ns_per_op": 91.3
     }
   }
 }
