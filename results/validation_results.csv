@@ -1,0 +1,70 @@
+case,problem,method,note,expected,actual,ok
+K1,knapsack,memo,items of weight 3 and 4,9,9,True
+K1,knapsack,tab,items of weight 3 and 4,9,9,True
+K1,knapsack,naive,items of weight 3 and 4,9,9,True
+K2,knapsack,memo,classic textbook case,220,220,True
+K2,knapsack,tab,classic textbook case,220,220,True
+K2,knapsack,naive,classic textbook case,220,220,True
+K3,knapsack,memo,items of weight 4 and 3,90,90,True
+K3,knapsack,tab,items of weight 4 and 3,90,90,True
+K3,knapsack,naive,items of weight 4 and 3,90,90,True
+K4,knapsack,memo,all items fit,60,60,True
+K4,knapsack,tab,all items fit,60,60,True
+K4,knapsack,naive,all items fit,60,60,True
+K5,knapsack,memo,zero capacity,0,0,True
+K5,knapsack,tab,zero capacity,0,0,True
+K5,knapsack,naive,zero capacity,0,0,True
+K6,knapsack,memo,no items,0,0,True
+K6,knapsack,tab,no items,0,0,True
+K6,knapsack,naive,no items,0,0,True
+K7,knapsack,memo,only item is too heavy,0,0,True
+K7,knapsack,tab,only item is too heavy,0,0,True
+K7,knapsack,naive,only item is too heavy,0,0,True
+L1,lcs,memo,textbook example,4,4,True
+L1,lcs,tab,textbook example,4,4,True
+L1,lcs,naive,textbook example,4,4,True
+L2,lcs,memo,LCS is GTAB,4,4,True
+L2,lcs,tab,LCS is GTAB,4,4,True
+L2,lcs,naive,LCS is GTAB,4,4,True
+L3,lcs,memo,identical strings,5,5,True
+L3,lcs,tab,identical strings,5,5,True
+L3,lcs,naive,identical strings,5,5,True
+L4,lcs,memo,no common character,0,0,True
+L4,lcs,tab,no common character,0,0,True
+L4,lcs,naive,no common character,0,0,True
+L5,lcs,memo,empty first string,0,0,True
+L5,lcs,tab,empty first string,0,0,True
+L5,lcs,naive,empty first string,0,0,True
+L6,lcs,memo,both strings empty,0,0,True
+L6,lcs,tab,both strings empty,0,0,True
+L6,lcs,naive,both strings empty,0,0,True
+L7,lcs,memo,repeated characters,2,2,True
+L7,lcs,tab,repeated characters,2,2,True
+L7,lcs,naive,repeated characters,2,2,True
+C1,coins,memo,5 + 6 (greedy would use 3 coins),2,2,True
+C1,coins,tab,5 + 6 (greedy would use 3 coins),2,2,True
+C1,coins,naive,5 + 6 (greedy would use 3 coins),2,2,True
+C2,coins,memo,5 + 5 + 1,3,3,True
+C2,coins,tab,5 + 5 + 1,3,3,True
+C2,coins,naive,5 + 5 + 1,3,3,True
+C3,coins,memo,single coin of 1,7,7,True
+C3,coins,tab,single coin of 1,7,7,True
+C3,coins,naive,single coin of 1,7,7,True
+C4,coins,memo,impossible amount,impossible,impossible,True
+C4,coins,tab,impossible amount,impossible,impossible,True
+C4,coins,naive,impossible amount,impossible,impossible,True
+C5,coins,memo,"impossible: odd amount, even coin",impossible,impossible,True
+C5,coins,tab,"impossible: odd amount, even coin",impossible,impossible,True
+C5,coins,naive,"impossible: odd amount, even coin",impossible,impossible,True
+C6,coins,memo,impossible: 3a + 7b = 11 has no solution,impossible,impossible,True
+C6,coins,tab,impossible: 3a + 7b = 11 has no solution,impossible,impossible,True
+C6,coins,naive,impossible: 3a + 7b = 11 has no solution,impossible,impossible,True
+C7,coins,memo,zero amount,0,0,True
+C7,coins,tab,zero amount,0,0,True
+C7,coins,naive,zero amount,0,0,True
+C8,coins,memo,"no coins, zero amount",0,0,True
+C8,coins,tab,"no coins, zero amount",0,0,True
+C8,coins,naive,"no coins, zero amount",0,0,True
+C9,coins,memo,"no coins, positive amount",impossible,impossible,True
+C9,coins,tab,"no coins, positive amount",impossible,impossible,True
+C9,coins,naive,"no coins, positive amount",impossible,impossible,True
